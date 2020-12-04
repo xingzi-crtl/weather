@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_city"
+            android:icon="@mipmap/icon_menu_city"
+            android:title="选择城市查询"/>
+        <item
+            android:id="@+id/nav_other_city"
+            android:icon="@mipmap/icon_menu_other_city"
+            android:title="输入城市查询"/>
+        <item
+            android:id="@+id/nav_multi_cities"
+            android:title="收藏城市"
+            android:icon="@mipmap/icon_menu_multi_city"
+            />
+    </group>
+
+    <item android:title="@string/app_name">
+        <menu>
+            <item
+                android:id="@+id/nav_set"
+                android:icon="@mipmap/icon_menu_setting"
+                android:title="设置"/>
+
+        </menu>
+    </item>
+
+
+</menu>
